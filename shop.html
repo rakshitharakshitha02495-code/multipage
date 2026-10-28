@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | Velora Fashion</title>
+<meta name="description" content="Browse Velora Fashion dresses, kurtis, co-ord sets and tops.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">Free shipping on orders above ₹1,999 · New Festive Collection is here</div>
+
+<header id="header">
+  <div class="container">
+    <nav>
+      <a href="index.html" class="logo" aria-label="Velora Fashion home"><img src="images/logo.png" alt="Velora Fashion logo"></a>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn light nav-cta">Order / Enquire</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumbs"><a href="index.html">Home</a> / Shop</p>
+    <h1>Shop the Collection</h1>
+    <p>Dresses, kurtis, co-ord sets and tops, made for every occasion.</p>
+  </div>
+</section>
+
+<section class="white-sec">
+  <div class="container">
+    <div class="filters">
+      <button class="filter active" data-f="all">All</button>
+      <button class="filter" data-f="dresses">Dresses</button>
+      <button class="filter" data-f="kurtis">Kurtis</button>
+      <button class="filter" data-f="co-ords">Co-ords</button>
+      <button class="filter" data-f="tops">Tops</button>
+    </div>
+    <div class="products">
+      <div class="product" data-c="dresses"><div class="img"><span class="tag">New</span><img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600" alt="Floral Midi Dress" loading="lazy"></div><h3>Floral Midi Dress</h3><div class="price">₹1,799</div><a class="enquire" href="contact.html?product=Floral+Midi+Dress&category=Dresses">Enquire</a></div>
+      <div class="product" data-c="dresses"><div class="img"><img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600" alt="Satin Evening Dress" loading="lazy"></div><h3>Satin Evening Dress</h3><div class="price">₹2,499 <s>₹3,200</s></div><a class="enquire" href="contact.html?product=Satin+Evening+Dress&category=Dresses">Enquire</a></div>
+      <div class="product" data-c="kurtis"><div class="img"><span class="tag">Bestseller</span><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600" alt="Embroidered Cotton Kurti" loading="lazy"></div><h3>Embroidered Cotton Kurti</h3><div class="price">₹999</div><a class="enquire" href="contact.html?product=Embroidered+Cotton+Kurti&category=Kurtis">Enquire</a></div>
+      <div class="product" data-c="kurtis"><div class="img"><img src="https://images.unsplash.com/photo-1583391733981-8b530f9b3d63?w=600" alt="Festive Anarkali Kurti" loading="lazy"></div><h3>Festive Anarkali Kurti</h3><div class="price">₹1,599</div><a class="enquire" href="contact.html?product=Festive+Anarkali+Kurti&category=Kurtis">Enquire</a></div>
+      <div class="product" data-c="co-ords"><div class="img"><span class="tag">New</span><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600" alt="Linen Co-ord Set" loading="lazy"></div><h3>Linen Co-ord Set</h3><div class="price">₹1,899</div><a class="enquire" href="contact.html?product=Linen+Co-ord+Set&category=Co-ord+Sets">Enquire</a></div>
+      <div class="product" data-c="co-ords"><div class="img"><img src="https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=600" alt="Printed Co-ord Set" loading="lazy"></div><h3>Printed Co-ord Set</h3><div class="price">₹1,699 <s>₹2,100</s></div><a class="enquire" href="contact.html?product=Printed+Co-ord+Set&category=Co-ord+Sets">Enquire</a></div>
+      <div class="product" data-c="tops"><div class="img"><img src="https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600" alt="Ruffle Top" loading="lazy"></div><h3>Ruffle Top</h3><div class="price">₹799</div><a class="enquire" href="contact.html?product=Ruffle+Top&category=Tops">Enquire</a></div>
+      <div class="product" data-c="tops"><div class="img"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600" alt="Classic Shirt" loading="lazy"></div><h3>Classic Shirt</h3><div class="price">₹899</div><a class="enquire" href="contact.html?product=Classic+Shirt&category=Tops">Enquire</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container reveal">
+    <h2>Can't find what you want?</h2>
+    <p>We take custom and bulk orders too. Send us your requirement.</p>
+    <a href="contact.html?category=Custom+%2F+Bulk+Order" class="btn white">Request Custom Order</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div><img class="foot-logo" src="images/logo-light.png" alt="Velora Fashion logo" loading="lazy"><p>Elegant womenswear made for everyday confidence.</p></div>
+      <div><h4>Pages</h4><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+      <div><h4>Shop</h4><a href="shop.html?cat=dresses">Dresses</a><a href="shop.html?cat=kurtis">Kurtis</a><a href="shop.html?cat=co-ords">Co-ord Sets</a><a href="shop.html?cat=tops">Tops</a></div>
+      <div><h4>Visit</h4><p>123 Main Street, Your City<br>+91 98765 43210<br>hello@velorafashion.com</p></div>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> Velora Fashion. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="wa" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<script src="script.js"></script>
+</body>
+</html>
